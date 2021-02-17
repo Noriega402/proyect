@@ -1,0 +1,27 @@
+body{
+	background: url("spiderps4.jpg") no-repeat center fixed;
+	background-size: cover;
+}
+h2{
+	text-align:  center;
+	color: white;
+	background: navy;	
+}
+.btn{
+	/*list-style: none;*/
+	text-decoration: none;
+	background: blue;
+	color: white;
+	display: block;
+	font-size: 1.3em;
+	padding: 5px;
+	border-radius: 15px; 
+}
+button{
+	box-sizing: border-box;
+	box-shadow: 0 10px 20px 15px black;
+	margin-top: 150px;
+}
+button a:hover{
+	background: black;
+}

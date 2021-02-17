@@ -1,0 +1,8 @@
+CREATE TABLE recibir(
+	Id_Usuario NUMERIC (8,0) NOT NULL,
+	Nombre VARCHAR (70) NOT NULL,
+	Nit NUMERIC (8,0) NOT NULL,
+	Telefono NUMERIC (8,0),
+	Direccion VARCHAR (80)
+
+);

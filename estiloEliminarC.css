@@ -1,0 +1,68 @@
+body{
+	margin: 0;
+	padding: 0;
+	background: url("pacman.png");
+	background-size: 15%;
+	background-color: navy;
+	background-repeat: round;
+}
+h2{
+	text-align: center;
+	color: white;
+	background: rgba(0,0,0,0.5);
+	width: 60%;
+	margin: auto;
+	margin-top: 30px;
+}
+.caja1{
+	box-sizing: border-box;
+	margin: auto;
+}
+.caja{
+	background: black;
+	background: transparent;
+	width: 15%;
+	margin-top: 50px;
+}
+.formulario__input, .formulario__label, 
+.formulario__submit{
+	margin-bottom: 20px;
+	width: 100%; 
+}
+.formulario__submit{
+	cursor: pointer;/*que aparezca un cursor a la hora de tenerlo cerca de estos.*/
+	background: red;/*Color del boton*/
+	padding: 10px;/*tamaño del boton en X y Y*/
+	color: white;/*color del texto del boton*/
+	border-radius: 10px;
+	margin-bottom: 10px;
+	font-size: 20px;
+
+}
+.formulario__label{
+	color: white;
+	font-size: 1.5em;
+}
+.formulario__input{
+	border: none;
+	border-bottom: 1px solid white;
+	color: white;
+	background: transparent;
+}
+.btn{
+	text-decoration: none;
+	background: black;
+	color: white;
+	font-size: 1.3em;
+	padding: 5px;
+	border-radius: 15px; 
+}
+button{
+	box-sizing: border-box;
+	box-shadow: 5px 5px 20px 10px grey;
+	margin-top: 15px;
+	margin: 20px;
+}
+button a:hover{
+	background: red;
+}

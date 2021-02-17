@@ -1,0 +1,69 @@
+*{
+	box-sizing: border-box;/*Mantener el formulario en su lugar y que no tenga problemas de tamaño*/
+
+}
+body{
+	margin: 0;
+	padding: 0;
+	background: url("hombrerania.jpg") no-repeat center fixed;/*Insertar la imagen en la pagina, que no se repita y
+	este ubicada en el centro*/
+	background-size: cover;/*colocar la imagen completa en la pagina*/
+	font-family: sans-serif;/*Tipo de la pagina.*/
+}
+.formulario{
+	
+	box-shadow: 15px 10px 20px 15px black;
+	position: relative;/*posicionar el formulario en medio de la pagina.*/
+	padding: 15px;/*espaciado de arriba y abajo del formulario para lo que se encuentra adentro*/
+	width: 500px;/*ancho del formulario.*/
+	max-width: 100%;
+	margin: auto;/*centrar el formulario.*/
+	margin-top: 40px;/*margen del arriba de la pagina, espacio entre el formulario y la parte de arriba*/
+}
+.logo__epic{
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	top: -35px;
+	left: calc(50% - -30%);
+}
+.formulario__titulo{
+	margin-top: 15px;
+	text-align: center;/*texto en el centro*/
+	color: white;/*Color del texto*/
+}
+.formulario__input, .formulario__label,
+.formulario__submit{
+	font-size: 1.3em;/*tamaño de letra*/
+	display: block;/*en dudas de dejarla	*/
+	width: 100%;/*Tamaño de las cajas de texto y boton*/
+	cursor: auto;/*que aparezca un cursor a la hora de tenerlo cerca de estos.*/
+		
+}
+.formulario__input{
+	border: 1px solid rgba(0,0,0,0.3);/*bordes de los cuadros de input*/
+	margin-bottom: 40px;/*aumenta el tamaño de lsa cajas input*/
+	padding: 20px;/*largo del formulario*/
+	background: transparent;/*transparecia de los input, si se agrega un color sera de ese.*/
+	color: white;
+}
+.formulario__input:focus + 
+.formulario__label{
+	/*outline: 1px solid rgba(0,0,0,0.7);*/
+	margin-top: -135px; 
+}
+.formulario__label{
+	position: absolute;/*Espacio entre cada uno de los label, input y submit*/
+	padding-left: 15px;/*Espaciado del lado izquierdo.*/
+	z-index: -20;/*poder escribir dentro de los label*/
+	color: white ;/*Color de los label rgba(700,900,1000,10)*/
+	margin-top: -85px;/*Posicionar los label encima de los input.*/
+	transition: all 0.7s;/*transicion de animacion de los label*/
+}
+.formulario__submit{
+	cursor: pointer;/*que aparezca un cursor a la hora de tenerlo cerca de estos.*/
+	background: blue;/*Color del boton*/
+	padding: 10px 20%;/*tamaño del boton en X y Y*/
+	color: white;/*color del texto del boton*/
+	border-radius: 10% 110px;/*recortar bordes del boton y hacer formas*/
+}

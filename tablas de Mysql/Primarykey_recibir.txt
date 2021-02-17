@@ -1,0 +1,3 @@
+ALTER TABLE recibir
+ADD CONSTRAINT reciNitId
+PRIMARY KEY(Id_Usuario, Nit)

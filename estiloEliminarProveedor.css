@@ -1,0 +1,55 @@
+body{
+	background: url("godofwar.jpg") no-repeat center fixed;
+	background-size: cover;
+}
+.btn{
+	/*list-style: none;*/
+	text-decoration: none;
+	background: blue;
+	color: white;
+	display: inline-block;
+	font-size: 1.3em;
+	padding: 5px;
+	border-radius: 15px; 
+}
+button{
+	box-sizing: border-box;
+	box-shadow: 0 10px 20px 15px black;
+	margin-top: 10px;
+	margin: 20px;
+}
+button a:hover{
+	background: black;
+}
+
+.formulario__label{
+	font-size: 1.2em;
+	font-family: sans-serif;
+	color: white;
+	margin-top: 20px
+}
+.formulario__input{
+	background-size: 20px;
+	background: transparent;
+	border: none;
+	border-bottom: 1px solid white;
+	color: white;
+	text-align: center;
+}
+.formulario__label, .formulario__input
+.formulario__submit{
+	display: block;
+}
+.formulario{
+	background: black;
+	width: 300px;
+	margin-top: 40px;
+	height: 60px;
+}
+.formulario__submit{
+	background: grey;
+	border-radius: 5px;
+	color: white;
+	font-size: 1em;
+}
+

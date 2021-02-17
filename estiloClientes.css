@@ -1,0 +1,25 @@
+body{
+	background: url("pacman.png");
+	background-repeat: round;
+	background-size:  15%;
+	background-color: navy;
+}
+
+.btn{
+	text-decoration: none;
+	background: red;
+	color: white;
+	display: inline-block;
+	font-size: 1.3em;
+	padding: 5px;
+	border-radius: 15px; 
+}
+button{
+	box-sizing: border-box;
+	box-shadow: 5px 5px 20px 10px blue;
+	margin-top: 10px;
+	margin: 20px;
+}
+button a:hover{
+	background: black;
+}

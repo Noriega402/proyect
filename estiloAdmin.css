@@ -1,0 +1,76 @@
+body{
+	margin: 0;
+	padding: 0;
+	background: url("ironman.jpg")no-repeat center fixed;
+	background-size: cover;
+	font-family: sans-serif;
+}
+h2{
+	color: white;
+}
+.submit{
+	border: none;
+	outline: none;
+	height: 40px;
+	background: red;
+	color: white;
+	font-size: 20px;
+	border-radius: 20px;
+	cursor: pointer;
+	box-sizing: border-box;
+	box-shadow: 0 1px 10px 10px black;
+}
+.regresar{
+	background: navy;
+	border-radius: 10px;
+	font-size: 1em;
+}
+.regresar a{
+	color: white;
+}
+.regresar a:hover{
+	background: lime;
+	color: black;
+	box-sizing: border-box;
+	box-shadow: 0 0 20px 10px lime;
+}
+#logo{
+	width: 120px;
+	height: 100px;
+	border-radius: 50%;/*quitra las esquinas de la imagen*/
+	position: absolute;/*posocion en medio*/
+	top: -50px;
+	left: calc(50% - 17%);/*calcular el espacio en donde va a estar las imagen*/
+}
+#opciones{
+	position:  absolute;
+	transform: translate(-50%, -50%);
+	box-sizing: border-box;
+	padding: 90px 30px;
+	box-shadow: 0 0 30px 1px gold;
+	width: 320px;
+	height: 400px; 
+	background-color: blue;
+	color: white;
+	top: 50%;
+	left: 50%;
+}
+h3{
+	margin: 0;
+	padding: 0 0 20px;
+	text-align: center;
+	font-size: 18px;
+}
+.campos__input{
+	border: none;
+	border-bottom: 1px solid white;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	color: white;
+	font-size: 18px;
+}
+input{
+		width: 100%;
+		margin-bottom: 20px;
+}

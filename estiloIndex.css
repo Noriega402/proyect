@@ -1,0 +1,46 @@
+body{
+	
+	background: url("Halo.jpg")  no-repeat center fixed;
+	background-size: cover;
+}
+#logo{
+	width: 150px;
+	height: 100px;
+	border-radius: 50%;
+}
+#titulo{
+	color: black;
+	font-size: 3em;
+}
+.producto1{
+	height: 100px;
+	width: 100px;
+	/*position: absolute;*/
+	transform: translate(-250%, 0);
+}
+.producto2{
+	height: 100px;
+	width: 100px;
+	/*position: absolute;*/
+	transform: translate(500%, -120%);
+	/*align-items: right fixed;*/
+}
+#txt{
+	color: white;
+}
+.hipervinculos  {
+	box-sizing: border-box;
+	background: transparent;
+	font-size: 2em;
+	border-radius: 25px;
+	box-shadow: 0 10px 20px 10px black;
+}
+.hipervinculos a{
+	color: black;
+	text-decoration: none;
+}
+.hipervinculos a:hover{
+	
+	background: black ;
+	color: white;
+}

@@ -1,0 +1,23 @@
+body{
+	background: url("kratos.jpg")no-repeat center fixed;
+	background-size: cover;
+}
+.btn{
+	text-decoration: none;
+	background: black;
+	color: white;
+	font-size: 1.3em;
+	padding: 5px;
+	border-radius: 5px; 
+}
+button{
+	box-sizing: border-box;
+	box-shadow: 5px 5px 20px 10px black;
+	margin-top: 15px;
+	margin: 20px;
+	margin: auto;
+}
+button a:hover{
+	background: navy;
+	color: white;
+}
